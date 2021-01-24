@@ -81,7 +81,7 @@ void riftFreeVM(RiftVM *vm);
 
 RiftInterpretResult riftInterpret(RiftVM *vm, char *moduleName, char *source);
 
-/** Opcodes in here */
+/** Opcodes in here *//*
 OPCODE(CONSTANT)
 OPCODE(NIL)
 OPCODE(TRUE)
@@ -148,7 +148,7 @@ OPCODE(CLOSE_FILE)
 OPCODE(BITWISE_AND)
 OPCODE(BITWISE_XOR)
 OPCODE(BITWISE_OR)
-OPCODE(POP_REPL)
+OPCODE(POP_REPL)*/
 
 /** Values */
 typedef struct sObj Obj;
