@@ -1,10 +1,10 @@
-include * from "../sources/std/std.rift"
+include * from "../sources/std/std.tidal"
 
 @@>Prints hello to the stdout
 @@Done via simple class object
 @@This is a oneline comment
 
 class greet() {
-  system.writeln("hello");
+  "Hello from greet" -> print;
 }
 
