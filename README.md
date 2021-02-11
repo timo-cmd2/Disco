@@ -1,2 +1,2 @@
-# Tidal
+# Shark
 A bytecode vm and statically typed general purpose language
