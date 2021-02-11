@@ -1,0 +1,11 @@
+include * from "../sources/std/std.shark"
+
+/+ Prints hello to the stdout
+ + Done via simple class object
+ + This is a oneline comment
+ +/
+
+class greet() {
+  "Hello from greet" -> print;
+}
+
