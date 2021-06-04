@@ -1,2 +1,2 @@
-# Shark
-A bytecode vm and statically typed general purpose language
+# Cadet
+Cadet is a dynamic dsl programming-language for writing and deploying group-policies
