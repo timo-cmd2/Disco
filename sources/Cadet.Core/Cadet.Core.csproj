@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="cadetconfig.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Configuration\cadetconfig.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Package references -->
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon></DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput></LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+</Project>
