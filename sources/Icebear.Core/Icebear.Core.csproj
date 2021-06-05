@@ -5,11 +5,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Remove="cadetconfig.json" />
+		<None Remove="icebearconfig.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="Configuration\cadetconfig.json" />
+		<EmbeddedResource Include="Configuration\icebearconfig.json" />
 	</ItemGroup>
 
 	<ItemGroup>
