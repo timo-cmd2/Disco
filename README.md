@@ -26,10 +26,6 @@ administrative-template denytaskmgr  {
   location string: "Windows/Control Panel"
 }
 ```
-
-### Execution planned
-
-Icebear syntax layer (dsl) -> Icebear runtime preprocessor -> IL Transpiler -> IL Assembly -> post-execution domain replication
  
 ## Author and Licensing
 
