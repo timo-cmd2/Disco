@@ -1,9 +1,9 @@
-// fqdn sample called conto.so
-@use-syntax version 0.1
-@pull-target domain = "conto.so"
-@policy-type administrative
+param syntax version 0.1
+param target domain: "conto.so"
+param type administrative
+param denytaskmgr dword:1
 
-policy-class denytaskmgr = {
-  location string = "Windows/Control Panel"
+policy-template denytaskmgr  {
+  location string: "Windows/Control Panel"
 }
 
